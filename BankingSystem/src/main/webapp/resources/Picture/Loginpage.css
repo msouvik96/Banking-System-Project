@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(./B9.jpg);
+    background-size: cover;
+    background-position: initial;
+    font-family: sans-serif;
+    color:rgb(14, 90, 104);
+}
+
+.header{
+    background: url(./B4.png);
+    width: 115%;
+    position: fixed; 
+    font-size: 25px;  
+    background-position: center;      
+    background-size: initial;
+    padding: 35px 0;
+    color: #fff;
+    top: 0;
+}
+ .footer{
+    width: 100%;
+    position: fixed;        
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+    bottom: 0;
+} 
+
+.loginbox{
+    width: 420px;
+    height: 420px;
+    background-color: rgb(11, 92, 119);
+    color: #fff;
+    top: 55%;
+    left: 60%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+}
+
+.loginimg{
+    width: 100px;
+    height: 100px;
+    border-radius: 60%;
+    position: absolute;
+    top: -50px;
+    left: calc(50%-50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid#fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;height: 40px;
+    background: #35e01e;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="reset"]{
+    border: none;
+    outline: none;height: 40px;
+    background: #fa0a3e;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+.loginbox a:hover{
+    cursor: pointer;
+    color: #5d10ec;
+}
+
+.loginbox input[type="submit"]:hover,input[type="reset"]:hover
+{
+    cursor: pointer;
+    background: #5d10ec;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
